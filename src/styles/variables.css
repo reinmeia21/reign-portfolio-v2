@@ -1,0 +1,47 @@
+:root {
+  /* Color — warm, paper-like aesthetic */
+  --color-paper: #fffbf5;
+  --color-paper-dim: #f9f3e8;
+  --color-cream: #faf7f1;
+  --color-ink: #1e2a38;
+  --color-ink-soft: #5a6b79;
+  --color-amber: #f2a93b;
+  --color-amber-light: #f7cb85;
+  --color-moss: #6b8f71;
+  --color-moss-light: #dce6dd;
+  --color-clay: #c86d3a;
+  --color-line: #e8dcc8;
+  --color-white: #ffffff;
+  
+  /* Type */
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-accent: "Caveat", cursive;
+
+  --fs-xs: 0.8rem;
+  --fs-sm: 0.95rem;
+  --fs-base: 1rem;
+  --fs-md: 1.15rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 2.2rem;
+  --fs-2xl: 3rem;
+  --fs-3xl: 4.2rem;
+
+  /* Layout */
+  --content-max: 1200px;
+  --content-narrow: 800px;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.75rem;
+  --space-lg: 3rem;
+  --space-xl: 5rem;
+  --space-2xl: 8rem;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --border-hairline: 1px solid var(--color-line);
+
+  --shadow-soft: 0 8px 24px -8px rgba(30, 42, 56, 0.15);
+  --shadow-md: 0 12px 40px -10px rgba(30, 42, 56, 0.2);
+  --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
